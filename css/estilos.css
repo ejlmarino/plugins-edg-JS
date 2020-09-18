@@ -1,0 +1,45 @@
+*{margin:0;padding: 0; }
+
+/* .navbar{
+	text-align: center;
+	padding: 15px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: white;
+	z-index: 100000;
+} */
+
+.social{
+	width: 100%;
+	position:sticky;
+	z-index: 99999;
+	top: 80px;
+	text-align: right;
+}
+
+.header{
+	background: white;
+}
+		#secc-1{
+			background: url(../img/camara2.jpg);
+			background-attachment: fixed;
+		}
+		#secc-2 {
+			background: url(../img/camara3.jpg);
+			background-attachment: fixed;
+		}
+		#secc-4 {
+			background: url(../img/monotipo.jpg);
+			background-attachment: fixed;
+		}
+		#secc-6 {
+			background: url(../img/nudo.jpg);
+			background-attachment: fixed;
+		}
+/*section{*/
+#secc-1,#secc-2,#secc-3,#secc-4,#secc-5,#secc-6{
+	padding-top:50px;
+	min-height: 400px;
+	outline: 1px solid red;
+}
